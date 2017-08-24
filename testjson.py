@@ -22,7 +22,8 @@ for year in xrange(1991,2018):
                 print("%s;%s;%s"%(element['draw_id'],element['draw_date'],string.replace(element['winning_num'],'-',';')))
         except ValueError:
 #            print("No draws on %s"%(drawdate))
-            print(";;;;;;")
+#            print(";;;;;;")
+            pass
 
 
 
