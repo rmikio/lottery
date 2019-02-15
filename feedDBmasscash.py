@@ -10,7 +10,7 @@ def connect():
     try:
         conn = MySQLdb.connect(host='mysql.cce6lk0tj9ey.us-east-1.rds.amazonaws.com',    # your host, usually localhost
                      user='admin',         # your username
-                     passwd='admin4all',  # your password
+                     passwd='admin123',  # your password
                      db='roninDB')        # name of the data base
 
 #        if conn.is_connected():
